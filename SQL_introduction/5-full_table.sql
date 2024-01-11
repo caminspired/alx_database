@@ -4,4 +4,4 @@
 USE hbtn_0c_0;
 
 -- describes elements of the table
-SELECT first_table.*;
+SELECT * FROM first_table;
