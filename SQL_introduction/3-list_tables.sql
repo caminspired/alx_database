@@ -1,16 +1,13 @@
 -- this script lists all the tables of the MYSQL server 
 
--- define a variable for the passed database name 
+-- Check if the database name is provided as an argument
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <database_name>"
     exit 1
 fi
 
--- set the database name to the desired name 
-database_name="$1";
+-- Assign the provided database name to a variable
+database_name="$1"
 
--- use the database 
-USE $database_name;
-
--- show all tables from mysql 
-SHOW tables; 
+-- MySQL command to list all tables in the specified database
+mysql -hlocalhost -uroot -p -e "USE $database_name; SHOW TABLES;"
