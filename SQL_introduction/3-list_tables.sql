@@ -7,7 +7,7 @@ DECLARE @dbname NVARCHAR(255);
 SET @dbname=mysql;
 
 -- use the database 
-USE mysql;
+USE @dbname;
 
 -- show all tables from mysql 
 SHOW tables; 
