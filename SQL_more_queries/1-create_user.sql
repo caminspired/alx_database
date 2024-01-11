@@ -1,4 +1,4 @@
--- this script creates a user and assigns priviledges
+-- this script creates a user and assigns privileges
 
 CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost'
 IDENTIFIED BY 'user_0d_1_pwd';
