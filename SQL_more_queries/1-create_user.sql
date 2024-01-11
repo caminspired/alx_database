@@ -3,5 +3,5 @@
 CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost'
 IDENTIFIED BY 'user_0d_1_pwd';
 
--- grants all server priviledges to user
-GRANT ALL PRIVILEDGES ON *.* TO 'user_0d_1'@'localhost';
+-- grants all server privileges to user
+GRANT ALL PRIVILEGES ON *.* TO 'user_0d_1'@'localhost';
