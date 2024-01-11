@@ -1,3 +1,5 @@
--- counts all records of id=89
+-- counts all records of id= in the table
 
-COUNT id IN first_table WHERE id=89;
+SELECT COUNT (*) as instance_count
+FROM first_table
+WHERE id=89;
