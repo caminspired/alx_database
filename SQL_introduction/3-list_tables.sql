@@ -4,7 +4,7 @@
 DECLARE @dbname NVARCHAR(255);
 
 -- set the database name to the desired name 
-SET @dbname=mysql;
+SET @dbname='mysql';
 
 -- use the database 
 USE @dbname;
